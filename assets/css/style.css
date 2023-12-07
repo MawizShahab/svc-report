@@ -592,12 +592,431 @@ p.checklist-name {
   width: 115px;
 }
 
+.screen-8 {
+  padding: 40px;
+  background-image: url(../img/screen-8-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.screen-9 {
+  padding: 40px;
+  background-image: url(../img/screen-9-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.screen-13 {
+  padding: 40px;
+  background-image: url(../img/screen-13-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.screen-10,
+.screen-12,
+.screen-14 {
+  background: #000 !important;
+  background-image: none;
+}
+
+.screen-15 {
+  background: #18b588 !important;
+}
+
+.screen-11 {
+  background-image: url(../img/screen-11-bg.png);
+}
+
+.screen-8 .title-container,
+.screen-9 .title-container {
+  margin-bottom: 40px;
+}
+
+.screen-11 .title-container {
+  margin-bottom: 20px;
+}
+
+.screen-8 p.title,
+.screen-9 p.title {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.023%;
+  width: 545px;
+}
+
+.screen-8 .detail-cards-main-container,
+.screen-9 .detail-cards-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-8 .card-container,
+.screen-9 .card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.screen-8 .row-1 .card-container .card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 158px;
+  height: 148px;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+
+.screen-9 .row-1 .card-container .card {
+  border-radius: 4px;
+  background: #fff;
+  justify-content: center;
+  /* padding: 12px 49px 24px 49px; */
+  align-items: center;
+  width: 246px;
+  height: 91px;
+}
+
+.screen-8 .row-2 .card-container .card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 158px;
+  height: 69px;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.screen-8 .row-3 .card-container .card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 158px;
+  height: 105px;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.screen-8 p.card-title,
+.screen-9 p.card-title {
+  color: #000;
+  text-align: center;
+  font-family: var(--inter-400);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.screen-8 p.card-price {
+  color: #000;
+  text-align: center;
+  font-family: var(--inter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.screen-9 p.card-price {
+  color: #000;
+  font-family: var(--inter);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.graph-container {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.screen-9 .graph-container {
+  padding-top: 16px;
+  gap: 20px;
+}
+
+.chart-graph-contaner {
+  width: 180px;
+  /* height: 264px; */
+  border-radius: 4px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.range-graph img {
+  width: 100%;
+  height: 100%;
+}
+
+.graph-title p {
+  color: #000;
+  font-family: var(--inter-400);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.graph-listing-container .listing-text .text {
+  color: #000;
+  font-family: var(--inter);
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.graph-listing-container .listing {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.below-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.below-content-container .content-title p {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.below-content-container .content-container .left-content p,
+.below-content-container .content-container .right-content p {
+  color: #fff;
+  font-family: var(--inter-400);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 244px;
+}
+
+.below-content-container .content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.subheading {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.graph-details-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.graph-listing-container .listing-text {
+  margin-top: 2px;
+}
+
+.screen-14 .report-content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.screen-14 .report-content.left {
+  width: 249px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.screen-14 .report-content.right {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.screen-14 .report-content.left .content,
+.screen-14 .report-content.right .content {
+  color: #fff;
+  font-family: var(--inter-400);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kpi-table-container {
+  border-radius: 4px;
+  background: #fff;
+  padding: 20px 15px 12px 14px;
+}
+
+.table-title {
+  color: #000;
+  font-family: var(--inter-400);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 4px;
+  text-align: left;
+  color: #000;
+  font-size: 8px;
+}
+
+.screen-17 {
+  background: #000;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 213px;
+  height: 800px;
+}
+
+.screen-17 .top-content-container {
+  border: 3px solid #fff;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-17 .top-content-container p.text {
+  color: #fff;
+  text-align: center;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118.023%;
+  width: 427px;
+}
+
+.screen-17 .company-name p,
+.screen-17 .website-link a {
+  color: #fff;
+  text-align: center;
+  font-family: var(--inter);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135.023%; /* 20.253px */
+}
+
+.screen-17 .address p,
+.screen-17 .city p,
+.screen-17 .country p {
+  color: #fff;
+  font-family: var(--inter-400);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.023%;
+  text-align: center;
+}
+
+.screen-17 .website-link {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-18,
+.screen-19 {
+  background: #000;
+  padding: 40px;
+  height: 800px;
+}
+
+.appendix-title-container {
+  margin-bottom: 40px;
+}
+
+.appendix-title {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.023%; /* 55.214px */
+}
+
+.appendix-content-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 516px;
+}
+
+.appendix-content-title p {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.appendix-content p {
+  color: #fff;
+  font-family: var(--inter-400);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 @media screen and (min-width: 768px) {
-  /* body {
-    width: 595px;
-    height: 476px;
-    margin: auto;
-  } */
   img {
     max-width: 100%;
   }
